@@ -1,0 +1,42 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css 
+block content 
+       
+        section#introSection
+            div.big Welcome to our Dance Academy.
+            div.small Dance Well! 
+        section#MissionSection 
+            h2  Our Mission:
+            div.card
+                h3   Best Academy
+                div#card-box
+                    div#card-img
+                        img(src="/static/img1.png", alt="")
+                    div#card-info
+                        p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptatum.
+            div.card
+                h3   Expert Teaching
+                div#card-box
+                    div#card-img
+                        img(src="/static/img2.png", alt="")
+                    div#card-info
+                        p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptatum.
+            div.card
+                h3   Great Learning
+                div#card-box
+                    div#card-img
+                        img(src="/static/img3.png", alt="")
+                    div#card-info
+                        p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptatum.
+        section#SponsorSection 
+            h2  Our Sponsors:
+            div#sponsors
+                img(src="/static/dell.png", alt="",class="sponsor")
+                img(src="/static/hp.png", alt="",class="sponsor")
+                img(src="/static/apple.png", alt="",class="sponsor")
+                img(src="/static/insta.png", alt="",class="sponsor")
+                img(src="/static/meta.png", alt="",class="sponsor")    

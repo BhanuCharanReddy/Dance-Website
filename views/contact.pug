@@ -1,0 +1,18 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/stylec.css 
+block content
+    div#div
+        h1 Contact Us:
+        form(action="/contact",method="POST",class="formm")
+            input(type="text",class="form",name="name",placeholder="Enter Your name") 
+            input(type="number",class="form",name="phone",placeholder="Enter Your phone number") 
+            input(type="email",class="form",name="mail",placeholder="Enter Your E-mail") 
+            input(type="text",class="form",name="address",placeholder="Enter Your Address") 
+            input(type="text",class="form",name="problem",placeholder="Enter Your Concern") 
+            button(class="btn")
+                | Submit

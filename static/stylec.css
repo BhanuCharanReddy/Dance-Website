@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&family=Montserrat:wght@500&family=Mukta&display=swap');
+
+#div{
+    margin: auto;
+    justify-content:center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Martel Sans', sans-serif;
+    
+}
+.form{
+    text-align: center;
+    margin: 7px;
+    border: 2px solid rgb(120, 119, 119);
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+    color: rgb(113, 113, 111);
+    padding: 2px;
+}
+.formm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+
+}
+.btn{
+    width:70px;
+    margin: auto;
+    margin-top: 8px;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    
+}
